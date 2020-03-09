@@ -111,6 +111,9 @@
             font-size: 15px;
         }
     }
+    .carousel{
+        display: none;
+    }
     .catalog{
         &__tabs{
             flex-direction: column;
@@ -151,6 +154,14 @@
             img{
                 height: 15px;
             }
+        }
+    }
+    .modal{
+        width: 100%;
+        height: 100%;
+        .modal__close{
+            top: 5px;
+            right: 5px;
         }
     }
 }
